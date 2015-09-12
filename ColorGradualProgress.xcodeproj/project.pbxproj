@@ -14,6 +14,7 @@
 		07B181F81BA4134300604E81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07B181F71BA4134300604E81 /* Images.xcassets */; };
 		07B181FB1BA4134300604E81 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B181F91BA4134300604E81 /* LaunchScreen.xib */; };
 		07B182071BA4134300604E81 /* ColorGradualProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B182061BA4134300604E81 /* ColorGradualProgressTests.m */; };
+		07B182121BA413AC00604E81 /* GradualProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B182111BA413AC00604E81 /* GradualProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		07B182001BA4134300604E81 /* ColorGradualProgressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorGradualProgressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B182051BA4134300604E81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07B182061BA4134300604E81 /* ColorGradualProgressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorGradualProgressTests.m; sourceTree = "<group>"; };
+		07B182101BA413AC00604E81 /* GradualProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradualProgressView.h; sourceTree = "<group>"; };
+		07B182111BA413AC00604E81 /* GradualProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradualProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				07B181F71BA4134300604E81 /* Images.xcassets */,
 				07B181F91BA4134300604E81 /* LaunchScreen.xib */,
 				07B181EA1BA4134300604E81 /* Supporting Files */,
+				07B182101BA413AC00604E81 /* GradualProgressView.h */,
+				07B182111BA413AC00604E81 /* GradualProgressView.m */,
 			);
 			path = ColorGradualProgress;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07B182121BA413AC00604E81 /* GradualProgressView.m in Sources */,
 				07B181F31BA4134300604E81 /* ViewController.m in Sources */,
 				07B181F01BA4134300604E81 /* AppDelegate.m in Sources */,
 				07B181ED1BA4134300604E81 /* main.m in Sources */,
